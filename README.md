@@ -1,3 +1,29 @@
+# grocery-list
+
+An experimental grocery list, nothing to say of yet!
+
+Some hopes...
+- When an item is checked off of the grocery list, the time is recorded
+  - Save a UTC datetime for future algorithms
+  - Save a reference time so that we can ask questions about item order within a store.
+    - Store layouts may differ, we may need to record stores (no gps, just a dropdown (initially?))
+    - Reference time looks for clusters of check-times to determine an item proximity graph
+- Future duplicates of items are sorted in new lists based on the referential checked time
+- The application can be pinned to user devices as a PWA
+  - Needs an icon
+  - The app name needs to not be 'TODO'
+- The application should save the users grocery list on the device it's created on
+- The user can check an item off by taking a picture of the item.
+  - Create a personal database of food items - track prices, nutrition information, deals, link to other databases
+  - Let's the user search the personal food database by picture
+  - Let's the user share grocery lists by sending reference images to friends (so they finally get the right stuff!)
+
+---
+
+> Below this line is the readme from the Sapper template. Keeping it for now
+
+---
+
 # sapper-template
 
 The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
